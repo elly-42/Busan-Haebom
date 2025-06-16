@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1400"><!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="./images/favicon.png" rel="icon" type="image/png" sizes="32x32"><!--파비콘-->
+  <title>부산해봄</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 헤더 -->
+  <div class="header">
+    <div class="header_bg">
+      <ul class="nav">
+        <li><a href="#story">소개</a>
+          <ul class="sub">
+            <li><a href="#story">해봄이야기</a></li>
+          </ul>
+        </li>
+        <li><a href="#perf">공연</a>
+          <ul class="sub">
+            <li><a href="#perf">공연</a></li>
+            <li><a href="#">전시</a></li>
+          </ul>
+        </li>
+        <li><a href="#trip">여행</a>
+          <ul class="sub">
+            <li><a href="#trip">축제</a></li>
+            <li><a href="#trip">관광지</a></li>
+            <li><a href="#trip">식사</a></li>
+            <li><a href="#trip">기념품샵</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="top_logo"><img src="./images/top_logo.png" alt="탑로고"></a>
+          <ul class="sub">
+            <li><a href="#"><img src="./images/Asset7.png" alt="빅_서브로고"></a></li>
+          </ul>
+        </li>
+        <li><a href="#exper">체험</a>
+          <ul class="sub">
+            <li><a href="#exper">전통문화</a></li>
+            <li><a href="#exper">활동체험</a></li>
+            <li><a href="#exper">공방</a></li>
+          </ul>
+        </li>
+        <li><a href="#com">커뮤니티</a>
+          <ul class="sub">
+            <li><a href="#com">Review</a></li>
+            <li><a href="#com">SNS</a></li>
+          </ul>
+        </li>
+        <li>
+          <ul class="top_btn">
+            <li><a href="#"><img src="./images/top_search.png" alt="검색창"></a></li>
+            <li><a href="#"><img src="./images/top_mypage.png" alt="마이페이지"></a></li>
+            <li><a href="#"><img src="./images/language.png" alt="언어"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 메인 배경 -->
+  <div class="main">
+    <div class="swiper fade">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/main_1.jpg" class="main1" alt="해변열차">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/main_2.jpg" class="main2" alt="오륙도">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/main_3.jpg" class="main3" alt="광안대교">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/main_4.jpg" class="main4" alt="해운대">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="main_text">
+      <h1>부산해봄</h1>
+      <p>부산의 문화를 한눈에 담아 <br>
+        즐기고 경험하는 통합 문화 체험 플랫폼</p>
+    </div>
+  </div>
+
+
+  <!-- 해봄이야기 -->
+  <div class="story" id="story">
+    <div class="s_text">
+      <h1 data-aos="fade-right">해봄이야기</h1>
+      <p>‘부산해봄’은 부산의 다양한 문화, 전시, 체험, 공연, 관광 정보를 한눈에 보고 직접 참여할 수 있도록 만든 통합 문화 체험 플랫폼입니다.
+        <br><br><br>
+        복잡하게 흩어져 있던 정보를 한곳에 모아, 누구나 쉽고 편리하게 문화생활을 즐길 수 있도록 돕고자 했습니다.
+        <br><br><br>
+        부산을 처음 찾는 이들에게는 유익한 길잡이가, 일상을 즐기고 싶은
+        부산 시민들에게는 새로운 즐거움이 되는 것이 ‘부산해봄’의 바람입니다.
+        <br><br><br>
+        부산에서의 좋은 경험, ‘부산해봄’이 함께합니다.
+      </p>
+    </div>
+
+    <div class="s_img">
+      <img src="./images/story_left.jpg" class="water" data-aos="fade-left" data-aos-delay="500" alt="물결">
+      <img src="./images/story_right.jpg" class="story_right" data-aos="fade-left" data-aos-delay="800" alt="흰여울터널">
+    </div>
+  </div>
+
+
+  <!-- 버튼 -->
+
+  <div class="button">
+
+    <ul class="btn1">
+      <li><a href="#perf">
+          <h2>공연</h2>
+        </a></li>
+      <li>
+        <p>부산문화회관부터 소극장까지 <br>
+          빠짐없이 확인 후 예매할 수 있어요!</p>
+      </li>
+      <li><img src="./images/tickets.png" class="btn11" alt="공연"></li>
+    </ul>
+
+    <ul class="btn2">
+      <li><a href="#trip">
+          <h2>여행</h2>
+        </a></li>
+      <li>
+        <p>부산해봄에서만 찾아봐도 <br>
+          일정 가득하게 구경할 수 있어요!</p>
+      </li>
+      <li><img src="./images/airplane.png" class="btn22" alt="여행"></li>
+    </ul>
+
+    <ul class="btn3">
+      <li><a href="#exper">
+          <h2>체험</h2>
+        </a></li>
+      <li>
+        <p>부산해봄에서는 모든 체험 한번에 <br>
+          예약하고 편리하게 즐길 수 있어요!</p>
+      </li>
+      <li><img src="./images/palette.png" class="btn33" alt="체험"></li>
+    </ul>
+  </div>
+
+
+  <!-- 공연 -->
+  <div class="perf" id="perf">
+    <div class="p_menu">
+      <h1>공연</h1>
+      <ul>
+        <li class="p_line"><a href="#">공연</a></li>
+        <li><a href="#">전시</a></li>
+      </ul>
+    </div>
+    <div class="p_section">
+      <ul class="p_in">
+        <li>
+          <div class="p_img"><a href="#">
+              <img src="./images/perform_1.jpg" class="perf1" alt="예술공감"></a>
+            <p><span>음악회</span></p>
+          </div>
+          <div class="p_t_in">
+            <h4>예술공감</h4>
+            <p class="plot">책 읽어주는 음악회로 오스카 와일드의 동화 ‘거인의 정원’과 명언을 그림과 구연가의 이야기로 음악과 함께 콜라보한 무대이다.</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="p_img"><a href="#"><img src="./images/perform_2.jpg" class="perf1" alt="런던레코드"></a>
+            <p><span>뮤지컬</span></p>
+          </div>
+
+          <div class="p_t_in">
+            <h4>런던레코드</h4>
+            <p class="plot">런던 외곽의 낡고 오래된 레코드 샵 주인 존, 레코드 샵에 커다란 가방을 들고 성큼 들어온 손님 찰리, 오디션에 떨어진 스칼렛. 공통점 없는 이 세명의 만남은
+              음악으로 하나가 되어 가고 서로의 상처를 위로해주며 한 팀이 되어 간다.</p>
+          </div>
+        </li>
+
+        <li><a href="#">
+            <div class="p_img"><img src="./images/perform_3.jpg" class="perf1" alt="휴남동서점">
+              <p><span>뮤지컬</span></p>
+            </div>
+
+            <div class="p_t_in">
+              <h4>어서오세요, 휴남동 서점입니다.</h4>
+              <p class="plot">힘겨운 고민을 안고 살아가는 이들이지만 휴남동 서점을 통해 잠시나마 마음의 휴식을 갖는다. <br><br>
+                그리고 각자 저마다의 방식으로 삶을 받아들이게 되는데...</p>
+            </div>
+          </a></li>
+
+        <li><a href="#">
+            <div class="p_img"><img src="./images/perform_4.jpg" class="perf1" alt="신밧드모험">
+              <p><span>음악회</span></p>
+            </div>
+
+            <div class="p_t_in">
+              <h4>이상한 나라의 동물들과 신밧드의 모험</h4>
+              <p class="plot">을숙도의 추억을 신비로운 ‘새벽안개’와 갈대밭 사이로 흐르는 잔잔한 ‘물결’ 그리고 저녁무렵의 쓸쓸하지만 너무나도 아름답게 펼쳐지는 ‘황혼’ 등 3개의 장으로
+                묘사한
+                작품이다.</p>
+            </div>
+          </a></li>
+        <li><a href="#">
+            <div class="p_img"><img src="./images/perform_5.jpg" class="perf1" alt="지브리디즈니">
+              <p><span>콘서트</span></p>
+            </div>
+
+            <div class="p_t_in">
+              <h4>지브리 & 디즈니 OST CONCERT</h4>
+              <p class="plot">애니메이션의 대가 ‘스튜디오 지브리’와 ‘월트 디즈니 스튜디오’ 명작들의 사운드트랙을 풀편성 오케스트라의 연주로 선보인다. 가장 인기 있는 협연 라인업과
+                오케스트라의
+                연주로 그때 그 감동을 다시 한 번 느껴보는 시간! </p>
+            </div>
+          </a></li>
+
+        <li><a href="#">
+            <div class="p_img"><img src="./images/perform_6.jpg" class="perf1" alt="꽃이피는계절">
+              <p><span>콘서트</span></p>
+            </div>
+
+            <div class="p_t_in">
+              <h4>꽃이 피는 계절</h4>
+              <p class="plot">신해경 단독 공연 ‘ 꽃이 피는 계절’ : 부산 </p>
+            </div>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 구분선 -->
+
+  <div class="line">
+  </div>
+
+  <!-- 여행 -->
+
+  <div class="trip" id="trip">
+    <div class="t_menu">
+      <h1>여행</h1>
+      <ul>
+        <li class="t_line"><a href="#">축제</a></li>
+        <li class="t_line"><a href="#"><span>관광지</span></a></li>
+        <li class="t_line"><a href="#"><span>식사</span></a></li>
+        <li><a href="#">기념품샵</a></li>
+      </ul>
+    </div>
+
+    <div class="t_section">
+      <ul>
+        <li><a href="#">
+            <div class="t_img">
+              <img src="./images/trip_1.jpg" alt="여행1">
+              <p>청사포</p>
+            </div>
+            <div class="t_text">
+              <h4>다릿돌 전망대</h4>
+              <p>청사포는 해운대와 송정 사이에 위치한 조용한 어촌 마을로, 다른 해변보다 한적하고 평화로운 분위기가 특징인 곳이다. 특히 일출과 일몰 명소로 유명하며, 푸른 바다와 어우러진 다릿돌
+                전망대,
+                등대, 방파제 등이 아름다운 풍경을 만들어낸다.</p>
+            </div>
+          </a></li>
+
+        <li><a href="#">
+            <div class="t_img">
+              <img src="./images/trip_2.jpg" alt="여행2">
+              <p>다대포</p>
+            </div>
+            <div class="t_text">
+              <h4>다대포 해수욕장</h4>
+              <p>다대포 해수욕장은 일몰 명소로 유명할 뿐 아니라, 밀물과 썰물 사이 얕게 고인 바닷물이 거울처럼 하늘을 비추며 우유니사막을 연상케 하는 장관을 연출한다. 물 위에 떠 있는 듯한 환상적인
+                풍경 속에서 특별한 인생샷을 남길 수 있다.</p>
+            </div>
+          </a></li>
+
+        <li><a href="#">
+            <div class="t_img">
+              <img src="./images/trip_3.jpg" alt="여행3">
+              <p>광안리</p>
+            </div>
+            <div class="t_text">
+              <h4>광안대교</h4>
+              <p>광안대교는 부산의 밤을 빛내는 대표적인 랜드마크로, 다채로운 조명이 바다 위를 수놓아 환상적인 야경을 선사한다. 드넓은 바다와 어우러진 반짝이는 교각은 보는 이의 감탄을 자아내며, 사진
+                찍기 좋은 야경 명소로도 손꼽히는 곳이다.</p>
+            </div>
+          </a></li>
+
+        <li><a href="#">
+            <div class="t_img">
+              <img src="./images/trip_4.jpg" alt="여행4">
+              <p>해운대</p>
+            </div>
+            <div class="t_text">
+              <h4>더베이101</h4>
+              <p>더베이101은 부산 야경의 명소로, 반짝이는 고층 빌딩들과 요트가 어우러진 풍경이 마치 해외의 항구 도시를 떠올리게 한다. 특히 밤이 되면 수면 위로 반사되는 빛들이 낭만적인 분위기를
+                자아내며, 감성 가득한 사진 명소로 사랑받고 있다.</p>
+            </div>
+          </a></li>
+
+        <li><a href="#">
+            <div class="t_img">
+              <img src="./images/trip_5.jpg" alt="여행5">
+              <p>해운대</p>
+            </div>
+            <div class="t_text">
+              <h4>해운대 수목원</h4>
+              <p>
+                부산 해운대구 석대동에 위치한 국내 최대 규모의 공립수목원으로, 과거 쓰레기 매립장이었던 부지를 자연친화적인 생태공간으로 탈바꿈시킨 대표적인 사례이다 .생명의 숲, 향기원, 허브길 등
+                30여 개의 테마 정원이 조성되어 있어 사계절 내내 다양한 식물과 자연을 감상할 수 있다 .</p>
+            </div>
+          </a></li>
+
+        <li><a href="#">
+            <div class="t_img">
+              <img src="./images/trip_6.jpg" alt="여행6">
+              <p>오륙도</p>
+            </div>
+            <div class="t_text">
+              <h4>해맞이 공원</h4>
+              <p>
+                부산에 속한 다양한 섬들 가운데서도 아름답기로 손꼽히는 오륙도는 남구 용호동에 속한 바위섬이다. 8천만 년 전, 화산활동으로 만들어진 암석이라는 지질학적 가치를 인정받아
+                부산국가지질공원으로 지정되었다. 더불어 보호대상 해양생물이 살고 있는 해양보호구역이자 국가지정문화재이기도 하다.</p>
+            </div>
+          </a></li>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+  <!-- 구분선 -->
+
+  <div class="line">
+  </div>
+
+  <!-- 체험 -->
+  <div class="exper" id="exper">
+    <div class="e_menu">
+      <h1>체험</h1>
+      <ul>
+        <li class="e_line"><a href="#">전통문화</a></li>
+        <li class="e_line"><a href="#">활동체험</a></li>
+        <li><a href="#">공방</a></li>
+      </ul>
+    </div>
+
+    <ul class="e_section">
+
+      <li><a href="#">
+          <div class="e_img">
+            <img src="./images/exper_1.jpg" alt="체험1">
+            <p>광안리</p>
+          </div>
+
+
+          <div class="e_text">
+            <h4>오랜지바다</h4>
+            <p>하얀 엽서에 내가 그리고 싶은 것들로 가득 채우는 내맘대로 엽서. 잘 그리지 않아도 좋다. 어린아이가 그린 듯 엉뚱하고 장난스러운 그림도 이곳에선 예술이 된다. 손님으로 왔다가 작가가
+              되어서 돌아가는 곳, 오랜지바다에서만 느낄 수 있는 매력일지도 모른다.</p>
+          </div>
+        </a></li>
+
+      <li><a href="#">
+          <div class="e_img">
+            <img src="./images/exper_2.jpg" alt="체험2">
+            <p>광안리</p>
+          </div>
+
+
+          <div class="e_text">
+            <h4>그린온더브라운</h4>
+            <p>숱한 도예공방 중 그린온더브라운이 유독 돋보이는 건 흙과 안료를 배합한 색깔 흙을 사용, 독특하고 영롱한 빛깔을 지닌 개성만점 도자기 제작이 가능해서다.토분 주문제작과 도자기 작품
+              판매뿐 아니라 성인취미반, 키즈클래스, 가족과 친구 단위 클래스, 기업체 등 다양한 수업 또한 진행 중이다.
+            </p>
+          </div>
+        </a></li>
+
+      <li><a href="#">
+          <div class="e_img">
+            <img src="./images/exper_3.jpg" alt="체험3">
+            <p>광안리</p>
+          </div>
+
+
+          <div class="e_text">
+            <h4>닥밭골 한지체험관</h4>
+            <p>닥밭골은 한지의 원료인 닥나무가 많아 이름 붙여진 동네로, 이곳에는 한지체험관이 자리하고 있다. 체험관에서는 고운 색상의 닥종이 인형 전시를 감상할 수 있으며, 수강생들을 위한 체험
+              공간도 마련되어 있다. 부산다운 건축상을 받은 이곳에서 전시를 구경하고 한지체험까지 즐겨볼 수 있다.
+            </p>
+          </div>
+        </a></li>
+    </ul>
+  </div>
+
+  <!-- 구분선 -->
+
+  <div class="line">
+  </div>
+
+
+  <!-- 이벤트 -->
+
+  <div class="event">
+    <h1>Event</h1>
+    <p class="ev_p">부산해봄이 현재 진행 중인 이벤트를 확인해보세요!</p>
+    <ul class="ev_section">
+      <li>
+        <div class="ev_text1">
+          <p class="ev_top">App Douwnload</p>
+          <h2>부산해봄 앱 가입 시 <br>
+            적립금 3,000원 지급!</h2>
+          <p>바로 사용 가능한 적립금을 지급해드릴게요!<br>
+            적립금으로 더 저렴하게 예약해요!</p>
+          <a href="#">
+            <p>자세히 보기</p>
+            <img src="./images/arrow_forward_ios.png" class="e_arrow" alt="화살표">
+          </a>
+          <img src="./images/event_1.png" class="event1" alt="이벤트1">
+        </div>
+
+      </li>
+
+      <li>
+        <div class="ev_text2">
+          <p class="ev_top">KAKAO</p>
+          <h2>카톡 플친 추가 시 <br>
+            적립금 3,000원 지급!</h2>
+          <p>부산해봄과 친구가 되어보세요.<br>
+            각종 정보와 혜택을 빠르게 알려드릴게요!</p>
+          <a href="#">
+            <p>자세히 보기</p>
+            <img src="./images/arrow_forward_ios.png" class="e_arrow" alt="화살표">
+          </a>
+          <img src="./images/twinkle.png" class="twinkle" alt="반짝이">
+          <img src="./images/event_2.png" class="event2" alt="이벤트2">
+        </div>
+
+      </li>
+
+      <li>
+        <div class="ev_text3">
+          <p class="ev_top">Busan people</p>
+          <h2>동백전으로 결제 시 <br>
+            한 번 더 적립!</h2>
+          <p>부산사람들 여기여기 모여라~!<br>
+            동백전으로 결제 시 한 번 더 적립해드려요!</p>
+          <a href="#">
+            <p>자세히 보기</p>
+            <img src="./images/arrow_forward_ios.png" class="e_arrow" alt="화살표">
+          </a>
+          <img src="./images/event_3.png" class="event3" alt="이벤트3">
+        </div>
+
+      </li>
+
+      <li>
+        <div class="ev_text4">
+          <p class="ev_top">Welcome Kit</p>
+          <h2>부산해봄 첫 체험 시 <br>
+            웰컴키트 증정!</h2>
+          <p>부산해봄에서 첫 체험을 하셨나요? <br>
+            반가운 마음을 담아 웰컴키트를 준비했습니다!</p>
+          <a href="#">
+            <p>자세히 보기</p>
+            <img src="./images/arrow_forward_ios.png" class="e_arrow" alt="화살표">
+          </a>
+          <img src="./images/event_4.png" class="event4" alt="이벤트4">
+        </div>
+
+      </li>
+    </ul>
+
+  </div>
+
+
+
+  <!-- 구분선 -->
+
+  <div class="line">
+  </div>
+
+
+  <!-- 커뮤니티 & 리뷰 -->
+
+  <div class="com" id="com">
+    <h1>Community</h1>
+    <p>부산해봄과 함께한 소중한 순간을 공유해주세요!</p>
+    <div class="review">
+      <h3>Review</h3>
+      <p>여러분의 리뷰는 다음 여행자에게 큰 도움이 됩니다. <br>
+        리뷰 작성 시, 적립금이 지급됩니다.
+      </p>
+      <div class="re_text">
+        <a href="#">더보기
+          <img src="./images/arrow_forward_ios.png" class="arrow1" alt="화살표"></a>
+        <a href="#" class="text_r">글쓰기
+          <img src="./images/arrow_forward_ios.png" class="arrow2" alt="화살표"></a>
+      </div>
+
+      <table>
+        <tr>
+          <th>No.</th>
+          <th>별점</th>
+          <th>주제</th>
+          <th>체험명</th>
+          <th>내용</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td><img src="./images/star5.png" class="star_on" alt="별5개"></td>
+          <td class="theme">여행</td>
+          <td class="title">부산시민공원</td>
+          <td class="on">아이들과 시간 보내기 좋습니다. 빈백도 빌려주고…</td>
+          <td class="on"><a href="#"><img src="./images/down_btn.png" alt="아래버튼"></a></td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td><img src="./images/star3.png" class="star_on" alt="별3개"></td>
+          <td class="theme">체험</td>
+          <td class="title">광안리 서프 요가</td>
+          <td class="on">여행와서 드디어 해보고가네요ㅎㅎ 강사님도 친절…</td>
+          <td class="on"><a href="#"><img src="./images/down_btn.png" alt="아래버튼"></a></td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td><img src="./images/star4.png" class="star_on" alt="별4개"></td>
+          <td class="theme">체험</td>
+          <td class="title">블루라인파크 해변열차</td>
+          <td class="on">와우 바다 원없이 볼 수 있어서 좋았어요. 다음에 가…</td>
+          <td class="on"><a href="#"><img src="./images/down_btn.png" alt="아래버튼"></a></td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td><img src="./images/star3.png" class="star_on" alt="별3개"></td>
+          <td class="theme">체험</td>
+          <td class="title">수영만요트경기장</td>
+          <td class="on"><a href="#">요트체험 재미있고 바다 예뻤지만 시간이 너무 짧아…</a></td>
+          <td class="on"><a href="#"><img src="./images/down_btn.png" alt="아래버튼"></a></td>
+        </tr>
+        <tr>
+          <td>5.</td>
+          <td><img src="./images/star5.png" class="star_on" alt="별5개"></td>
+          <td class="theme">식사</td>
+          <td class="title">티카페 예원</td>
+          <td class="on"><a href="#">평소에 차를 좋아해서 더 알아보고싶어 예약하고…</a></td>
+          <td><a href="#"><img src="./images/down_btn.png" alt="아래버튼"></a></td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td><img src="./images/star4.png" class="star_on" alt="별4개"></td>
+          <td class="theme">여행</td>
+          <td class="title">2025 모래축제</td>
+          <td class="on"><a href="#">기대 많이 했는데 비가 와서 제대로 못 보고가서 아…</a></td>
+          <td class="on"><a href="#"><img src="./images/down_btn.png" alt="아래버튼"></a></td>
+        </tr>
+        <tr>
+          <td>7.</td>
+          <td><img src="./images/star5.png" class="star_on" alt="별5개"></td>
+          <td class="theme">공연</td>
+          <td class="title">퐁당, 빠졌수다</td>
+          <td class="on"><a href="#">부산에서 하고있다고해서 궁금해서 보러왔는데 너…</a></td>
+          <td class="on"><a href="#"><img src="./images/down_btn.png" alt="아래버튼"></a></td>
+        </tr>
+        <tr>
+          <td>8.</td>
+          <td><img src="./images/star5.png" class="star_on" alt="별5개"></td>
+          <td class="theme">식사</td>
+          <td class="title">수월경화</td>
+          <td class="on"><a href="#">이 좋아서 딱 청사포 바다가 보이는 자리에 앉았…</a></td>
+          <td class="on"><a href="#"><img src="./images/down_btn.png" alt="아래버튼"></a></td>
+        </tr>
+        <tr>
+          <td>9.</td>
+          <td><img src="./images/star5.png" class="star_on" alt="별5개"></td>
+          <td class="theme">체험</td>
+          <td class="title">디어마이진스</td>
+          <td class="on"><a href="#">못 입는 청바지로 이렇게 예쁜 걸 만들 수 있다니!!…</a></td>
+          <td class="on"><a href="#"><img src="./images/down_btn.png" alt="아래버튼"></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- sns -->
+
+  <div class="sns">
+    <div class="sns_text">
+      <h3>SNS</h3>
+      <P>SNS에 남긴 게시글을 제출하면 해봄에서 특별한 선물을 드려요!</P>
+    </div>
+    <div class="slide">
+      <a href="#"><img src="./images/sns_1.jpg" alt="sns_1"></a>
+      <a href="#"><img src="./images/sns2.jpg" alt="sns2"></a>
+      <a href="#"><img src="./images/sns3.jpg" alt="sns3"></a>
+      <a href="#"><img src="./images/sns4.jpg" alt="sns4"></a>
+      <a href="#"><img src="./images/sns5.jpg" alt="sns5"></a>
+      <a href="#"><img src="./images/sns6.jpg" alt="sns6"></a>
+      <a href="#"><img src="./images/sns_1.jpg" alt="sns_1"></a>
+      <a href="#"><img src="./images/sns2.jpg" alt="sns2"></a>
+      <a href="#"><img src="./images/sns3.jpg" alt="sns3"></a>
+      <a href="#"><img src="./images/sns4.jpg" alt="sns4"></a>
+      <a href="#"><img src="./images/sns5.jpg" alt="sns5"></a>
+      <a href="#"><img src="./images/sns6.jpg" alt="sns6"></a>
+
+    </div>
+  </div>
+
+  <div class="trip_info">
+    <h4>부산해봄의 여행 정보</h4>
+    <ul class="t_info_in">
+      <li>
+        <div class="app">
+          <img src="./images/sub_logo.png" alt="서브로고">
+          <a href="#">
+            <h5>부산해봄 앱 설치하기</h5>
+          </a>
+          <img src="./images/big_arrow.png" class="app_arrow" alt="큰화살표">
+        </div>
+        <p>부산해봄 앱에서 각 주제별로 정리된 유용한 <br>
+          정보와 여행자분들을 위한 이벤트를 확인해보세요.</p>
+      </li>
+      <li class="down">
+        <div class="app">
+          <img src="./images/Instagram.png" alt="인스타그램">
+          <a href="#">
+            <h5>부산해봄 인스타그램</h5>
+          </a>
+          <img src="./images/big_arrow.png" class="app_arrow" alt="큰화살표">
+        </div>
+        <p>부산 곳곳에서 활동중인 부산해봄의 서포터즈님과 <br>
+          여행자분들이 보내주신 아름다운 사진을 감상해보세요.</p>
+      </li>
+      <li class="down">
+        <div class="app">
+          <img src="./images/naver.png" alt="네이버">
+          <a href="#">
+            <h5>부산해봄 네이버 블로그</h5>
+          </a>
+          <img src="./images/big_arrow.png" class="app_arrow" alt="큰화살표">
+        </div>
+        <p>부산해봄의 네이버블로그에서 리얼생생한 공연·여행· <br>체험 정보를 확인해보세요. </p>
+      </li>
+    </ul>
+
+  </div>
+
+  <!-- 바텀 -->
+
+  <div class="bottom">
+    <div class="bottom_in">
+      <a href="#"><img src="./images/bottom_logo.png" alt="바텀로고"></a>
+      <ul class="bt_left1">
+        <li class="underline">Info</li>
+        <li>(주)부산해봄</li>
+        <li>(우 47545) 부산광역시 연제구 중앙대로 1001(연산동)</li>
+        <li>Copyright Busan Haebom.All rights reserved.</li>
+      </ul>
+      <ul class="bt_left2">
+        <li class="underline">Guide</li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">뷰어다운로드</a></li>
+        <li><a href="#">개인정보처리약관</a></li>
+        <li><a href="#">저작권보호정책약관</a></li>
+      </ul>
+      <ul class="bt_left3">
+        <li class="underline">Contact us</li>
+        <li>Tel : 051-594-5640 </li>
+        <li>( 평일 08:30 - 18:30 )</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 탑으로 가는 버튼 -->
+  <a href="#"><img src="./images/top_btn.png" class="tothetop" alt="탑버튼"></a>
+
+  <!-- 라이브러리 연결 -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+ 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+ <!-- 제이쿼리 코드 -->
+ <script src="./script/제이쿼리.js"></script>
+
+ <!-- AOS JS -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+  AOS.init({
+    duration: 1000,
+    offset: 200,
+    easing:"ease-in-out"
+  });
+</script>
+
+</body>
+
+</html>
